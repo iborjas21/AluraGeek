@@ -1,0 +1,58 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "titulo": "Harry Potter y la Piedra Filosofal. Ilustrado!",
+      "precio": "$3.000",      
+      "imagen": "https://i.postimg.cc/d1cn1Htj/IMG-5154.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "Harry Potter, Un viaje por la historia de la Magia. Ilustrado!",
+      "precio": "$ 10.000",
+      "imagen": "https://i.postimg.cc/cCtRmZbG/IMG-5157.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Harry Potter y el Prisionero de Askaban. Ilustrado!",
+      "precio": "$ 30.000",
+      "imagen": "https://i.postimg.cc/xqrKp7wJ/IMG-5158.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "Harry Potter y La Camara secreta. Ilustrado!!?",
+      "precio": "$ 2.000",
+      "imagen": "https://i.postimg.cc/VsJpTtym/IMG-5159.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "Harry Potter y La Orden del Fenix. Ilustrado!!?",
+      "precio": "$ 2.000",
+      "imagen": "https://i.postimg.cc/2jgMf5mv/IMG-5160.jpg"
+    },
+    {
+      "id": 6,
+      "titulo": "Harry Potter y El Caliz de Fuego. Ilustrado!!?",
+      "precio": "$ 7.000",
+      "imagen": "https://i.postimg.cc/2jgMf5mv/IMG-5161.jpg"
+    },
+    {
+      "id": 7,
+      "titulo": "Los Cuentos de BEEDLE el BARDO!?",
+      "precio": "$ 2.000",
+      "imagen": "https://i.postimg.cc/2jgMf5mv/IMG-5162.jpg"
+    },
+    {
+      "id": 8,
+      "titulo": "QUIDDITCH a Través de los Tiempos. Ilustrado!!?",
+      "precio": "$ 2.000",
+      "imagen": "https://i.postimg.cc/2jgMf5mv/IMG-5163.jpg"
+    },
+    {
+      "id": 9,
+      "titulo": "Pinocho. Ilustrado!!?",
+      "precio": "$ 5.000",
+      "imagen": "https://i.postimg.cc/2jgMf5mv/IMG-5182.jpg"
+    }    
+  ]
+}

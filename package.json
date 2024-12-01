@@ -1,0 +1,14 @@
+{
+  "name": "alurageek-libros",
+  "version": "1.0.0",
+  "description": "venta de libros",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch ./db.json --port 3002"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.3"
+  }
+}

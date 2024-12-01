@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="*">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    
+    <title>AluraGeek</title>
+    <link rel="shortcut icon" href="./img/Logo copy.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="header">
+        <nav class="encabezado">
+            <div class="encabezado_logo">
+            <a class="logo" href="./index.html"></a>
+            </div>
+            <img class="encabezado_img" src="./img/encabezado/Corazon.png" alt="Imagen Corazones">
+            <h2 class="encabezado_texto">  AluraGeek</h2>
+            <div class="encabezado__buscar">
+                <input type="search" placeholder="Buscar" id="buscar" class="buscar__input" data-busqueda>
+                <button class="buscar__boton" data-boton-busqueda></button>
+            </div>
+            
+        </nav>
+    </header>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main class="main-contenedor">
+        <section class="contenedor-misProductos">
+            <h1>Mis Productos:</h1>
+        <div data-lista class="productos-contenedor">
+
+            <!-- <div class="card">
+                <div class="img-contenedor">
+                    <img class="imagen-iten" src="https://i.postimg.cc/d1cn1Htj/IMG-5154.jpg" alt="${producto}">
+                </div>
+                <div class="card-contenedor--info">
+                    <p>"Harry Potter y la piedra filosofal. Ilustrado!"</p>
+                    <div class="card-contenedor--value">
+                        <p>$ 3000</p>
+                        <button class="boton-borrar" data-id="${id}">
+                            <img class="papelera" src="./img/papelera.png" alt="Eliminar">
+                        </button>
+                    </div>
+                </div>
+            </div> 
+             -->
+                        
+         </div>
+        </section>
+
+        <!-- AGREGAR PRODUCTOS -->
+        <section class="contenedor-agregarProductos">
+            <h1 class="formulario-contenedor-titulo" >Agregar Producto:</h1>
+            
+            <form class="formulario-contenedor" data-formulario>
+                <!-- FORMULARIO AGREGAR PRODUCTOR -->
+                <input class="input" name="producto" required placeholder="producto..." id='producto' data-titulo/>
+                <input class="input" name="precio" required placeholder="precio..." id='precio' data-precio/>
+                <input class="input" name="imagen" required placeholder="imagen..." id='imagen' data-imagen/>
+                <span class="mensajeError" data-mensage ></span>
+                <div class="boton-contenedor">
+                    <button  type="submit" class="boton-enviar" id="button"> Enviar...</button>
+                    <button  type="reset" class="boton-limpiar" id="button">Limpiar...</button>
+                </div>
+            </form>
+            
+        </section>
+
+    </main>
+
+
+    <footer class="footer-contenedor">
+        
+        <img class="encabezado_img_footer" src="./img/encabezado/Corazon.png" alt="Imagen Corazones">
+        <div>
+            <h2 class="encabezado_texto_footer">  AluraGeek</h2>
+        </div>
+        </div>
+        <p> Desarollado por iborjas21.    </p>
+        <small class="small" > Alura Latam 2024</small>
+        <div class="redes_footer" >
+            <a class="redes_footer_item" href="https://github.com/iborjas21" target="_blank">  
+                <img src="img/gighub.png" alt="logo github">
+            </a>
+            <a class="redes_footer_item" href="https://www.linkedin.com/in/ivan-borjas-85b700121" target="_blank">
+                <img class="redes_img" src="img/LinkedIn.png" alt="logo linkedin">
+            </a> 
+            <a class="redes_footer_item" href="https://www.instagram.com/iborjas21?igsh=MXZrY3R0YXUxMG1zcA%3D%3D&utm_source=qr" target="_blank">
+                <img class="redes_img" src="img/Instagram.png" alt="logo instagram">
+            </a> 
+            <a class="redes_footer_item" href="https://www.facebook.com/share/RjwsFW1p9ychBv4b/?mibextid=LQQJ4d" target="_blank"> 
+                <img class="redes_img" src="img/Facebook.png" alt="logo facebook">
+            </a>
+        </div>
+    </footer>
+    <script src="./js/nuevoProducto.js" type="module"></script>
+    <script src="./js/buscarProducto.js" type="module"></script>
+    <script src="./js/mostrarProductos.js" type="module"></script>
+   
+</body>
+
+</html>
