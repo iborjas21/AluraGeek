@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3002/productos";
+const BASE_URL = "https://674cea5454e1fca9290ddc68.mockapi.io/:endpoint";
 
 async function listaProductos(){
     const conexion = await fetch(BASE_URL,{
