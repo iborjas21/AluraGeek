@@ -39,7 +39,7 @@ function addDeleteEvent(articulo, id) {
   deleteButton.addEventListener("click", async () => {
     try {
       await servicios.deleteProductos(id);
-      card.remove();
+      articulo.remove();
       console.log(`Producto con id ${id} eliminado`);
     } catch (error) {
       console.error(`Error al eliminar el producto con id ${id}:`, error);
