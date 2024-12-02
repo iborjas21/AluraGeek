@@ -170,7 +170,13 @@ button {
     margin: 10px 0 45px 0;
     border-radius: 16px;
     min-width: 10rem; 
+    cursor: pointer;
     
+}
+
+.card:hover{
+    transform: scale(1.20);
+
 }
   
   .img-contenedor{
