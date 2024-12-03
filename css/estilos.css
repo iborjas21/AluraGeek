@@ -171,8 +171,8 @@ button {
     border-radius: 16px;
     min-width: 10rem; 
     cursor: pointer;
-    transition: background-color 1.2s;
-    transition: color;  
+    transition: background-color 1.1s;
+    
     
 }
 
