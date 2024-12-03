@@ -171,11 +171,16 @@ button {
     border-radius: 16px;
     min-width: 10rem; 
     cursor: pointer;
+    transition: background-color 1.2s;
+    transition: color;  
     
 }
 
 .card:hover{
     transform: scale(1.20);
+    background-color: #81aeea; 
+    color: #3b0588;
+    font-weight: bold;
 
 }
   
