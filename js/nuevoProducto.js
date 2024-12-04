@@ -13,9 +13,9 @@ async function crearProducto(evento){
 
     try{
         await servicios.crearProductos(titulo, precio, imagen);    
-       alert("Producto creado con exito");  
-        location.reload();
-        // window.location.href="../pages/envio-concluido.html";
+       //alert("Producto creado con exito");          
+        window.location.href="./index.html";
+        
     }catch(e){
         alert(e);
     }
