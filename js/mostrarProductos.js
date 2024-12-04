@@ -41,6 +41,7 @@ function addDeleteEvent(articulo, id) {
       await servicios.deleteProductos(id);
       articulo.remove();
       console.log(`Producto con id ${id} eliminado`);
+        alert(`Producto con id ${id} eliminado`);
     } catch (error) {
       console.error(`Error al eliminar el producto con id ${id}:`, error);
     }
