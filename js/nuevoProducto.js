@@ -13,7 +13,8 @@ async function crearProducto(evento){
 
     try{
         await servicios.crearProductos(titulo, precio, imagen);    
-        window.location.href="../pages/envio-concluido.html";
+       alert("Producto creado con exito");  
+        // window.location.href="../pages/envio-concluido.html";
     }catch(e){
         alert(e);
     }
