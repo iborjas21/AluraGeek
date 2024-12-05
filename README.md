@@ -73,7 +73,7 @@ Consideraciones generales del proyecto. ⚠️
 
 
 El repositorio actual, archivo conexionJsonServer.js apunta al servidor ps://674cea5454e1fca9290ddc68.mockapi.io/productos";
-el cual se encuentra en un server fake haciendo uso del recurso MockAPI,      https://mockapi.io/projects
+el cual se encuentra en un server fake haciendo uso del recurso MockAPI,      https://mockapi.io
 
 por lo tanto al visitar cualquiera de los dos sitios disponibles pueden hacer las pruebas necesarias.
 
