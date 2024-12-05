@@ -35,11 +35,13 @@ Con esta aplicacion usted podrá
 
 💻Tecnologías utilizadas
 
-HTML5/CSS3
+HTML5
+
+CSS3
 
 JavaScript
 
-json-serverlada.
+json-server.
 
 Fetch API
 
