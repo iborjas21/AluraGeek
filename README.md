@@ -5,6 +5,7 @@ Corresponde a un  desafio Challenge de Alura Latam, en donde los usuarios pueden
 
 
 
+_________________________________________________________________________________________________________________
 Características:
 
 Con esta aplicacion usted podrá
@@ -32,7 +33,7 @@ Con esta aplicacion usted podrá
 
 
 
-
+_________________________________________________________________________________________________________________
 💻Tecnologías utilizadas
 
 HTML5
@@ -55,14 +56,15 @@ ChatGpt
 
 
 
-
+_________________________________________________________________________________________________________________
 
 🗂️ Estructura del Proyecto
+
 -css
 
-  -estilos.css
+      -estilos.css
   
-  -reset.css
+      -reset.css
 
   
 -img
@@ -70,15 +72,16 @@ ChatGpt
 
 -js
 
-  -buscarProducto.js
+      -buscarProducto.js
   
-  -conexionJsonServer.js
+      -conexionJsonServer.js
   
-  -editarProductos.js
+      -editarProductos.js
   
-  -mostrarProductos.js
+      -mostrarProductos.js
   
-  -nuevoProducto.js
+      -nuevoProducto.js
+      
   
 -pages
 
@@ -95,6 +98,7 @@ ChatGpt
 
 
 
+____________________________________________________________________________________________________________________________
 
 
 Consideraciones generales del proyecto. ⚠️
@@ -140,7 +144,7 @@ https://i.postimg.cc/x118RwmS/IMG-5250.jpg
 
 
 
-
+_________________________________________________________________________________________________________________
 En el entorno de desarrollo, para prueba de uso local, nos serviremos de archivo db.json utilizando json-server para simular el uso de servidor remoto.
 para lo cual se debe cambiar la direccion al que apunta el archivo conexionJsonServer.js y modificar la direccion actual por  http://localhost:3001/productos/
 
