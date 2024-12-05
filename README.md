@@ -3,6 +3,8 @@ AluraGeek es una aplicación web que permite a los usuarios gestionar una lista 
 
 Corresponde a un  desafio Challenge de Alura Latam, en donde los usuarios pueden visualizar , agregar y eliminar productos, utilizando tecnologías frontend modernas y un servidor JSON simulado.
 
+
+
 Características:
 
 Con esta aplicacion usted podrá
@@ -30,23 +32,18 @@ Con esta aplicacion usted podrá
 
 
 
+
 💻Tecnologías utilizadas
 
 HTML5/CSS3
 JavaScript
 json-serverlada.
 Fetch API
+Node.js
+Visual Studio Code
+Extension Live Server
+ChatGpt
 
-Instalación
-Requisitos previos
-Node.js instalado.
-Pasos
-
-npm install
-
-
-npm start
-Abre index.htmlen tu navegador.
 
 
 
@@ -78,64 +75,55 @@ Consideraciones generales del proyecto. ⚠️
 El repositorio actual, archivo conexionJsonServer.js apunta al servidor ps://674cea5454e1fca9290ddc68.mockapi.io/productos";
 el cual se encuentra en un server fake haciendo uso del recurso MockAPI,      https://mockapi.io/projects
 
-por lo tanto al visitar cualquie4ra de los dos sitios disponibles pueden hacer las pruebas necesarias.
+por lo tanto al visitar cualquiera de los dos sitios disponibles pueden hacer las pruebas necesarias.
 
 https://iborjas21.github.io/AluraGeek/index.html
   o  
-
 https://alura-geek-two-sooty.vercel.app/index.html
 
 Al ser un recurso free, contamos con limitaciones. Por ejemplo, en tiempo de respuesta.
 
+Las imagenes deben tener una url, para lo cual se utilizó un recurso free llamado Postimage https://postimages.org/
+
+imagenes de ejemplo
+
+https://i.postimg.cc/d1cn1Htj/IMG-5154.jpg
+
+https://i.postimg.cc/cCtRmZbG/IMG-5157.jpg
+
+https://i.postimg.cc/xqrKp7wJ/IMG-5158.jpg
+
+https://i.postimg.cc/VsJpTtym/IMG-5159.jpg
+
+https://i.postimg.cc/2jgMf5mv/IMG-5160.jpg
+
+https://i.postimg.cc/NjkzT7X7/IMG-5161.jpg
+
+https://i.postimg.cc/FH467nYH/IMG-5162.jpg
+
+https://i.postimg.cc/vH9j8dHK/IMG-5163.jpg
+
+https://i.postimg.cc/J7cXjH5L/IMG-5182.jpg
+
+https://i.postimg.cc/sDc15jvc/IMG-5249.jpg
+
+https://i.postimg.cc/x118RwmS/IMG-5250.jpg
+
+
+
+
 
 En el entorno de desarrollo, para prueba de uso local, nos serviremos de archivo db.json utilizando json-server para simular el uso de servidor remoto.
-para lo cual se debe cambiar la direccion al que apunta el archivo conexionJsonServer.js y colocar http://localhost:3001/productos/
+para lo cual se debe cambiar la direccion al que apunta el archivo conexionJsonServer.js y modificar la direccion actual por  http://localhost:3001/productos/
 
-Consideraciones iniciales 📝
-Important
+Se debe iniciar el servidor mediante los siguientes comandos
 
-En este proyecto trabajamos instalando Node.js para poder hacer uso de la herramienta npm. Se recomienda su previa instalación. Revise las versiones compatibles.
+npm init -y
+npm install json-server@0.17.3 --save-dev
+npx json-server --watch db.json --port 3001
 
-Revise el formato recomendado para el ingreso de datos, por ejemplo: url de imágenes deben ser url válida ej: http://ejemploUrl.com, el formato de precio es solo numeros con el '.' como simbolo decimal.
 
-El proyecto se encuentra en desarrollo, por lo que puede haber errores o problemas que no se han detectado aun. Sientase libre de comentarlos por dm o mail si lo necesita.
 
-Instalación y Uso 💻
-1- Clona el repositorio:
 
-git clone https://github.com/alizunega/proyecto_tienda.git
 
-2- Navega al directorio del proyecto:
-
-cd proyecto_tienda
-
-3- Instala dependencias necesarias segun package.json
-
-npm install
-
-4- Selecciona la rama develop para trabajar con entorno local
-
-git checkout develop
-
-5- Inicia el servidor
-
-npm run start
-
-6- Levanta el archivo index.html con la Extensión Live Server para ver la página en funcionamiento.
-
-7- Puedes interactuar con la aplicación y ver en funcionamiento la página. Comprobaras la carga de items desde db.json, podras agregar items y eliminarlos. Comprueba también la busqueda por palabra clave.
-
-8- En conectionAPI.js, puedes modificar la constante url para trabajar localmente con el servidor simulado en mockAPI. Para ello, simplemente comenta la URL de desarrollo (la que tiene el formato localhost:3000) y descomenta la de producción. Por defecto, la aplicación utiliza la URL del archivo db.jsonlocal.
-
-Es importante destacar que, aunque estés ejecutando la página desde tu entorno local, la aplicación puede estar configurada para consumir datos desde una API remota (en este caso, mockAPI). Esto permite simular interacciones con un servidor real mientras desarrollas y pruebas tu aplicación.
-
-En ese caso el paso 6 no será necesario.
-
-9- Consideración especial: si trabajas en la rama main no funcionará correctamente, recomiendo usar develop para trabajar en local. main es exclusivo para entorno de producción.
-
-Estructura de carpetas 📂
-proyecto_tienda
-├── src
-|   ├── css
-│   └── js
-├── pages
+ 
