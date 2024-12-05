@@ -27,7 +27,7 @@ Con esta aplicacion usted podrá
 ![image](https://github.com/user-attachments/assets/ba69ce7a-ed86-44a4-8728-90bd3ef4d8c9)
 
 
-5- Editaar productos (proximamente, en construcion)
+5- Editar productos (proximamente, en construcion)
 
 
 
