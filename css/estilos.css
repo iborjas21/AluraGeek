@@ -161,7 +161,7 @@ button {
     max-width: 13rem; 
     justify-content: center;
     align-items: center;
-    background-color:#5d03da;
+    background-color:#1f40d7;
     color:#FFFFFF ;
     width: calc(100%/1);      
     justify-content: center;
@@ -189,7 +189,7 @@ button {
     height: 170px;
     background: #CCC;
     overflow: hidden;
-    background-color:#5d03da;
+    background-color:#1f40d7;
     color:#FFFFFF ;
     width: calc(100%/1);
     padding: 5px;
