@@ -36,34 +36,60 @@ Con esta aplicacion usted podrá
 💻Tecnologías utilizadas
 
 HTML5/CSS3
+
 JavaScript
+
 json-serverlada.
+
 Fetch API
+
 Node.js
+
 Visual Studio Code
+
 Extension Live Server
+
 ChatGpt
+
 
 
 
 
 🗂️ Estructura del Proyecto
 -css
+
   -estilos.css
+  
   -reset.css
+
+  
 -img
+
+
 -js
+
   -buscarProducto.js
+  
   -conexionJsonServer.js
+  
   -editarProductos.js
+  
   -mostrarProductos.js
+  
   -nuevoProducto.js
+  
 -pages
+
 -db.json
+
 -index.html
+
 -node_modules
+
 -package-lock.json
+
 -package.json
+
 
 
 
