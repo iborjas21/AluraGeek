@@ -35,14 +35,28 @@ async function crearProductos(titulo, precio, imagen){
 //listaProductos();
 
 
+// Función buscarProductos
+async function buscarProductos(referencia) {
+  try {
+    // Hacer la consulta a la API sin filtro inicial
+    const conexion = await fetch(BASE_URL);
+    const productos = await conexion.json();
 
+    // Normalizar el término de búsqueda
+    const terminoNormalizado = referencia.toLowerCase();
 
-
-async function buscarProductos(referencia){
-  const conexion=await fetch(`${BASE_URL}?q=${referencia}`);
-  const conexionConvertida=conexion.json();
-
-  return conexionConvertida;
+    // Filtrar los productos buscando el término en cualquier campo
+    return productos.filter(producto => {
+      // Itera sobre las claves y verifica si el valor contiene el término de búsqueda
+      return Object.keys(producto).some(key => {
+        const valor = producto[key]?.toString().toLowerCase();
+        return valor.includes(terminoNormalizado);
+      });
+    });
+  } catch (error) {
+    console.error("Error al buscar productos:", error);
+    return [];
+  }
 }
 
 const deleteProductos = async (id) => {
