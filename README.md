@@ -116,10 +116,13 @@ https://i.postimg.cc/x118RwmS/IMG-5250.jpg
 En el entorno de desarrollo, para prueba de uso local, nos serviremos de archivo db.json utilizando json-server para simular el uso de servidor remoto.
 para lo cual se debe cambiar la direccion al que apunta el archivo conexionJsonServer.js y modificar la direccion actual por  http://localhost:3001/productos/
 
+
 Se debe iniciar el servidor mediante los siguientes comandos
 
 npm init -y
+
 npm install json-server@0.17.3 --save-dev
+
 npx json-server --watch db.json --port 3001
 
 
